@@ -1,0 +1,24 @@
+{
+    "name": "gelmutdm/vk-group-parser",
+    "description": "This library can parse lists of vk groups.",
+    "keywords": [
+        "vk", "groups", "parser"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Gelmutdinov",
+            "email": "gelmutd-m@yandex.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "vkcom/vk-php-sdk": "^5.101"
+    },
+    "autoload": {
+        "psr-4": {
+            "VKGroupParser": "src"
+        }
+    }
+        
+}
