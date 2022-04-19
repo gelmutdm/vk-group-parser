@@ -80,16 +80,4 @@ class Parser {
         file_put_contents($this->exitFilePath, implode("\r\n", $ids_group));
     }
 }
-
-$excludedIds = [
-    187389116,
-];
-
-$result = (new Parser())
-    ->setAccessToken("ccf15a48765480d07aa9f7b7ccf55bee9f0ee6c446f9b712a3a4a4c80ba9b99d97813a4b8fd511b3b86a2")
-    ->setExitFilePath("result.txt")
-    ->setExcudedIds($excludedIds)
-    ->setQ("Нижняя Мактама")
-    ->setCount(1000)
-    ->parse();
 ?>
